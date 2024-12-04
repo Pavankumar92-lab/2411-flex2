@@ -1,0 +1,122 @@
+.flexContainer{
+    width:900px;
+    height:350px;
+    background-color: lawngreen;
+    display:flex;
+    margin:20px;
+    flex-wrap: wrap;
+}
+    .container1{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .container2{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: end;
+    }
+    .container3{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container4{
+        flex-direction: row;
+        justify-content: start;
+        align-items: stretch;
+    }
+    .container5{
+        flex-direction: column;
+        justify-content: start;
+        align-content: stretch;
+    }
+    .container6{
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
+    }
+    .container7{
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+    }
+        .container8{
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .container9{
+            flex-direction: row;
+            justify-content: start;
+            align-items: start;
+        }
+        .container10{
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
+        .container11{
+            flex-direction: row;
+            justify-content: start;
+            align-items: start;
+        }
+        .container12{
+            flex-direction: row;
+            justify-content: start;
+            align-content: start;
+        }
+        .container13{
+            flex-direction: column;
+            justify-content: start;
+            align-content:space-between;
+        }
+        .container14{
+            flex-direction: row;
+            justify-content: start;
+            align-content: space-around;
+        }
+        .container15{
+            flex-direction: column;
+            justify-content: start;
+            align-content: stretch;
+        }
+        .container16{
+            flex-direction: row;
+            justify-content: start;
+            align-content: center;
+        }
+        .container17{
+            flex-direction: row;
+            justify-content: start;
+            align-content: start;
+        }
+        .container18{
+            flex-direction: row;
+            justify-content: start;
+            align-content: end;
+        }
+    
+    
+    .item{
+        width:100px;
+        height:100px; 
+        background-color: blueviolet;
+        color: whitesmoke;
+        border: 2px solid black;
+        font-size: 3.5rem;
+        text-align: center;
+    
+    }
+    
+
+
+
+.item1{
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: 2px solid black;
+    font-size: 3.5rem;
+    text-align: center;
+
+}
